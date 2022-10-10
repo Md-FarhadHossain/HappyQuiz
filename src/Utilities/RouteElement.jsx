@@ -2,6 +2,8 @@ import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from '../components/Home/Home'
 import Main from '../Main'
+import Statistics from '../components/Statistics/Statistics'
+import Blog from '../components/Blog/Blog'
 
 const RouteElement = () => {
 
@@ -12,7 +14,16 @@ const RouteElement = () => {
         children: [
           {
             path: '/',
-            element: <Home />
+            element: <Home />,
+            loader: async () => fetch('https://openapi.programming-hero.com/api/quiz')
+          },
+          {
+          path: '/statistics',
+          element: <Statistics />
+          },
+          {
+            path: '/blog',
+            element: <Blog />
           }
         ]
       }
