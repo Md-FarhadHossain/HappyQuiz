@@ -6,7 +6,6 @@ import './QuizSection.css'
 const QuizSection = () => {
   const loadQuizTopic = useLoaderData();
   const quizTopicData = loadQuizTopic.data;
-  console.log(quizTopicData);
 
   return (
     <div className="quizes__topic">
