@@ -1,18 +1,24 @@
 import React from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const QuizOption = ({option,correctAnswer}) => {
 
+    
+
     const handleQuizAns = () => {
         if(option !== correctAnswer){
-            alert(`worng answer`)
+            toast("Wrong answer")
         } else {
-            alert(`Right answer`)
+            toast("right answer")
+
         }
     }
 
   return (
     <div>
         <button onClick={handleQuizAns}>{option}</button>
+        <ToastContainer />
     </div>
   )
 }
