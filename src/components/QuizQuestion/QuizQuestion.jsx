@@ -1,12 +1,24 @@
-import React from 'react'
+import React from "react";
+import QuizOption from "../QuizOption/QuizOption";
+import './QuizQuestion.css'
 
-const QuizQuestion = ({question}) => {
-    console.log(question)
+const QuizQuestion = ({ question, options,correctAnswer }) => {
+  console.log(question);
   return (
-    <div>
-        <h1>{question.correctAnswer}</h1>
-    </div>
-  )
-}
+    <div className="quizes__content">
 
-export default QuizQuestion
+      <div
+        className="content"
+        dangerouslySetInnerHTML={{ __html: question.question }}
+
+      ></div>
+
+
+      {
+        options.map(option => <QuizOption option={option} correctAnswer={correctAnswer}  />)
+      }
+    </div>
+  );
+};
+
+export default QuizQuestion;

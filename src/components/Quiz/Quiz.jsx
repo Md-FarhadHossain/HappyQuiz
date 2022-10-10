@@ -5,7 +5,6 @@ const Quiz = () => {
   const loadQuiz = useLoaderData();
   const quizData = loadQuiz.data;
   const quizDataQuestion = quizData.questions;
-  console.log(quizDataQuestion)
 
 
   return (
@@ -14,7 +13,7 @@ const Quiz = () => {
       <h3>Total quiz: {quizData.total}</h3>
 
       {quizDataQuestion.map((question) => (
-        <QuizQuestion key={question.id} question={question}  />
+        <QuizQuestion key={question.id} question={question} options={question.options} correctAnswer={question.correctAnswer} />
       ))}
     </div>
   );
