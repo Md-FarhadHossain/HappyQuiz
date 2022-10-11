@@ -5,6 +5,7 @@ import Main from '../Main'
 import Statistics from '../components/Statistics/Statistics'
 import Blog from '../components/Blog/Blog'
 import Quiz from '../components/Quiz/Quiz'
+import ErrorPage from '../components/ErrorPage/ErrorPage'
 
 const RouteElement = () => {
 
@@ -12,14 +13,16 @@ const RouteElement = () => {
       {
         path: '/',
         element: <Main />,
+        errorElement: <ErrorPage />,
         children: [
           {
             path: '/',
             element: <Home />,
-            loader: async () => fetch('https://openapi.programming-hero.com/api/quiz')
+            loader: async () => fetch('https://openapi.programming-hero.com/api/quiz'),
           },
           {
           path: '/statistics',
+          loader: async () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Statistics />
           },
           {

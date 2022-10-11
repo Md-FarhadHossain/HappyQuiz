@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import BlogContent from "./BlogContent/BlogContent";
 
 const Blog = () => {
   return (
-    <div>Blog</div>
-  )
-}
+    <div>
+      <BlogContent title="farhad" description="farhad" />
+    </div>
+  );
+};
 
-export default Blog
+export default Blog;
