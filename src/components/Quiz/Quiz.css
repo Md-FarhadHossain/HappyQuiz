@@ -1,0 +1,14 @@
+.quiz__content {
+  background: #18191a;
+  padding: 3rem 0;
+}
+.quiz__content h1 {
+  padding-top: 3rem;
+  
+}
+
+.quiz__content h1,
+h3 {
+  text-align: center;
+  color: #fff;
+}

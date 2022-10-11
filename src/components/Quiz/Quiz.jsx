@@ -2,6 +2,7 @@ import React from "react";
 import { useLoaderData } from "react-router-dom";
 import QuizQuestion from "../QuizQuestion/QuizQuestion";
 import 'react-toastify/dist/ReactToastify.css';
+import './Quiz.css'
 const Quiz = () => {
   const loadQuiz = useLoaderData();
   const quizData = loadQuiz.data;
@@ -12,7 +13,7 @@ const Quiz = () => {
 
 
   return (
-    <div>
+    <div className="quiz__content">
       <h1>Quiz name: {quizData.name}</h1>
       <h3>Total quiz: {quizData.total}</h3>
 
