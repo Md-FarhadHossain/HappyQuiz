@@ -26,4 +26,5 @@ body {
   border-radius: 1.5rem;
   outline: none;
   border: 3px solid #d6d3ff;
+  cursor: pointer;
 }

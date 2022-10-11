@@ -18,6 +18,12 @@ ul.navLink a {
     font-weight: 700;
 }
 .navbar_content {
-    background: linear-gradient(45deg, #5cf084, #1edefd);
     padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
 }

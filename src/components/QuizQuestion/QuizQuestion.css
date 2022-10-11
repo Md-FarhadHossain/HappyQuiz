@@ -25,3 +25,9 @@
   align-items: center;
   margin: 1rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  .quizes__content {
+    width: 95% !important;
+  }
+}
