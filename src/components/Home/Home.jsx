@@ -18,11 +18,11 @@ const Home = () => {
 
 
         {/* Quiz section */}
-        <div className="quiz__section">
+        <section id="quiz__section" className="quiz__section">
             <div className="container">
             <QuizSection />
             </div>
-        </div>
+        </section>
         {/* Quiz section end */}
 
       </section>

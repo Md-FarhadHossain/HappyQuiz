@@ -5,5 +5,7 @@
     justify-content: center;
 }
 @media screen and (max-width: 992px) {
-    
+    .recharts-wrapper svg {
+        padding: 3rem;
+    }
 }
