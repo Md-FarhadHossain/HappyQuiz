@@ -16,7 +16,9 @@ const QuizOption = ({ option, correctAnswer }) => {
 
   const handleQuizAns = () => {
     if(option !== correctAnswer){
-      toast('wrong answer')
+      toast('wrong answer', {
+        toastId: uuidv4(),
+      })
     } else {
       toast('it right')
     }

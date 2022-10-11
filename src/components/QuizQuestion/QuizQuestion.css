@@ -12,3 +12,13 @@
 .quizes__content > div > label {
     cursor: pointer;
 }
+.ans__show svg {
+    font-size: 2rem;
+    cursor: pointer;
+}
+.ans__show {
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    margin: 1rem 0;
+}
