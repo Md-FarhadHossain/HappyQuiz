@@ -1,4 +1,8 @@
 .quiz__topic img {
-    width: 100%;
-    background: #ddd;
+    width: 280px;
+    background: #282828;
+    border-radius: 0.5em;
+}
+.quiz__topic {
+    text-align: center;
 }

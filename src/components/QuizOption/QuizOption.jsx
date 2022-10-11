@@ -1,26 +1,14 @@
-import React from 'react'
-import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import React from "react";
+import "react-toastify/dist/ReactToastify.css";
 
-const QuizOption = ({option,correctAnswer}) => {
-
-    
-
-    const handleQuizAns = () => {
-        if(option !== correctAnswer){
-            toast("Wrong answer")
-        } else {
-            toast("right answer")
-
-        }
-    }
+const QuizOption = ({ option, correctAnswer,handleQuizAns }) => {
+  
 
   return (
     <div>
-        <button onClick={handleQuizAns}>{option}</button>
-        <ToastContainer />
+      <button onClick={handleQuizAns}>{option}</button>
     </div>
-  )
-}
+  );
+};
 
-export default QuizOption
+export default QuizOption;

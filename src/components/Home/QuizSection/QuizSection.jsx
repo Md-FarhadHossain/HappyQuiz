@@ -8,8 +8,9 @@ const QuizSection = () => {
   const quizTopicData = loadQuizTopic.data;
 
   return (
-    <div className="quizes__topic">
+   <>
       <h1>quiz data {quizTopicData.length}</h1>
+    <div className="quizes__topic">
 
       {quizTopicData.map((quizTopic) => (
         <QuizTopic
@@ -21,6 +22,7 @@ const QuizSection = () => {
         />
       ))}
     </div>
+   </>
   );
 };
 

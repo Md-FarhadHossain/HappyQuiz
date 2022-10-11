@@ -1,0 +1,16 @@
+.heroSection_content {
+    background-image:linear-gradient(45deg, black, transparent), url('../../assets/image/hero-section.jpg');
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.hero-description {
+    color: #fff;
+}
+
+.hero-description h1 {
+    font-size: 2.5rem;
+}
+.hero-description * {
+    margin: 1rem 0;
+}

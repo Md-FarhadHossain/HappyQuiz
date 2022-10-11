@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "./HeroSection/HeroSection";
 import QuizSection from "./QuizSection/QuizSection";
+import './Home.css'
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
           <div className="container">
             <HeroSection />
           </div>
+        </div>
+
         {/* Hero Seciton end */}
 
 
@@ -22,7 +25,6 @@ const Home = () => {
         </div>
         {/* Quiz section end */}
 
-        </div>
       </section>
     </>
   );
