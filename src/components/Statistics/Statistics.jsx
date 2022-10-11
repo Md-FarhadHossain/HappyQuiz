@@ -11,7 +11,7 @@ const Statistics = () => {
 
   return (
     <div className='statistics__content'>
-      <LineChart width={800} height={500} data={dataOfTopic}>
+      <LineChart width={500} height={300} data={dataOfTopic}>
         <Line type='monotone' dataKey='total' stroke='#2196F3' strokeWidth={2} />
         <CartesianGrid stroke='#ccc' />
         <XAxis dataKey='name' />
