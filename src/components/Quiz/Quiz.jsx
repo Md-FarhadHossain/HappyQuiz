@@ -6,12 +6,10 @@ const Quiz = () => {
   const loadQuiz = useLoaderData();
   const quizData = loadQuiz.data;
   const quizDataQuestion = quizData.questions;
-
+  const quizQuestionLength =  quizDataQuestion.length
+  
   
 
-  const handleQuizAns = () => {
-    
-  };
 
   return (
     <div>
@@ -24,9 +22,10 @@ const Quiz = () => {
           question={question}
           options={question.options}
           correctAnswer={question.correctAnswer}
-          handleQuizAns={handleQuizAns}
-        />
-      ))}
+          quizQuestionLength={quizQuestionLength}
+        />    
+    
+))}
 
     </div>
   );

@@ -5,4 +5,18 @@
 }
 .quiz__topic {
     text-align: center;
+    padding: 0.8rem;
+    border-radius: 0.5em;
+    box-shadow: rgb(149 157 165 / 28%) 0px 8px 24px;
+}
+.quiz__topic--info {
+    text-align: left;
+    padding: 1rem 0;
+}
+.quiz__topic--info h1 {
+    font-weight: 600;
+}
+
+.quiz__topic--info h3 {
+    font-weight: 100;
 }

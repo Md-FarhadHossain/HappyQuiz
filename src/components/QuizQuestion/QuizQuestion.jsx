@@ -3,7 +3,7 @@ import QuizOption from "../QuizOption/QuizOption";
 import "./QuizQuestion.css";
 import { v4 as uuidv4 } from "uuid";
 
-const QuizQuestion = ({ question, options, correctAnswer, handleQuizAns }) => {
+const QuizQuestion = ({ question, options, correctAnswer, handleQuizAns,quizQuestionLength }) => {
   return (
     <div className="quizes__content">
       <div

@@ -14,3 +14,11 @@
 .hero-description * {
     margin: 1rem 0;
 }
+.hero__btn {
+    background: #21b573;
+    border: 3px solid #136842;
+}
+
+.hero-description p {
+    width: 65%;
+}
