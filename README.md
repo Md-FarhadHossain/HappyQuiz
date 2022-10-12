@@ -70,8 +70,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+
+
 # This is a Quiz app which name HappyQuiz
-This is a Quiz app which name HappyQuiz
+This is a Quiz app which name HappyQuiz. I design this website with the help of react js.
+
+## `Which technology use for this project`
+### `HTML`, `CSS`, `JAVASCRIPT`, `REACT`,
 
 ## `Github repository link`
 Link: [https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Md-FarhadHossain/tree/master](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Md-FarhadHossain/tree/master)
