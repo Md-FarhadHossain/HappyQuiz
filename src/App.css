@@ -9,7 +9,7 @@ html {
 }
 body {
   font-family: 'Poppins', sans-serif;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .container {

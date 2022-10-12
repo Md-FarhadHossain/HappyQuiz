@@ -10,7 +10,7 @@ const QuizSection = () => {
   return (
     <>
       <div style={{padding: '2rem 0'}}>
-        <h1 style={{ textAlign: "center" }}>
+        <h1 style={{ textAlign: "center", fontSize: '2rem', padding:'2rem 0' }}>
           Available quiz: {quizTopicData.length}
         </h1>
         <div className="quizes__topic">
