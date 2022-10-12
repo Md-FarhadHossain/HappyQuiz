@@ -9,20 +9,20 @@ const Navbar = () => {
         <div className="container">
           <div className="navbar">
             {/* Logo */}
-            <div className="logo">HappyQuiz</div>
+            <Link to='/' style={{textDecoration: 'none', color: '#000'}} className="logo">HappyQuiz</Link>
 
             {/* Nav */}
 
             <nav>
               <ul className="navLink">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link style={{color: '#000'}} to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/statistics">Statistics</Link>
+                  <Link style={{color: '#000'}} to="/statistics">Statistics</Link>
                 </li>
                 <li>
-                  <Link to="/blog">Blog</Link>
+                  <Link style={{color: '#000'}} to="/blog">Blog</Link>
                 </li>
               </ul>
             </nav>
